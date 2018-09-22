@@ -1,0 +1,132 @@
+.mapBox {
+	margin-top: 60px;	
+	margin-bottom: 0;
+}
+
+.mapBox > .col {
+	padding: 0;
+}
+
+#googleMap, .mosaicoAberto {
+	width:100%;
+	height: 600px;
+}
+
+fieldset {
+	margin-bottom: 30px;
+}
+
+.boxIncidentes {
+	margin: 20px auto;
+	width: 90%;
+}
+
+.boxIncidentes .card {
+	margin: 0;
+}
+
+.boxIncidentes .collapsible-header {
+	padding: 0 0.3rem;
+}
+
+.boxIncidentes .collapsible-header i {
+	margin-right: 0.1rem;
+}
+
+.boxIncidentes .collapsible-body p {
+	padding: 0;
+}
+
+.boxIncidentes .card.horizontal .card-image img {
+	max-width: none;
+	width: 100%;
+}
+
+.abreMenu {
+	position: fixed;
+	z-index: 1;
+	top: 75px;
+	left: 15px;
+}
+
+.abreMosaico, .fechaMosaico {
+	position: fixed !important;
+	top: 82px;
+	left: 90px;
+}
+
+.side-nav {
+	margin-top: 60px;
+	height: calc(100% - 60px);
+	padding-bottom: 0;
+}
+
+.mapTabs {
+	width: 360px;
+	margin: 10px 0 10px 10px;
+}
+
+.indicator {
+	background-color: #ffea00 !important;
+	height: 5px !important;
+}
+
+.modal.bottom-sheet.mapaModal {
+	max-height: 75%;
+	min-height: 75%;
+}
+
+.mosaico {
+	position: absolute;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	overflow-y: scroll;
+}
+
+.mosaico.mosaicoAberto {
+	z-index: 999;
+	top: 60px;
+	left: 0;
+	background-color: #ffffff !important;
+	padding-top: 82px;
+}
+
+.addPonto {
+	z-index: 1;
+	position: fixed !important;
+	top: 82px;
+	left: 149px;
+
+}
+
+.fechaMosaico {
+	z-index: 1000;
+}
+
+.overYhide {
+    overflow-y: hidden;
+}
+
+.itemMosaico {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.itemMosaicoImg {
+	width: 40%;
+	margin: 0 10px 5px 0;
+}
+
+.itemMosaico .card .card-content {
+	min-height: 150px;
+}
+
+
+
+.mapBox .side-nav .col {
+	padding: 0;
+}
+

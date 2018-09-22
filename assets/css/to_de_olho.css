@@ -1,0 +1,26 @@
+#googleMap {	
+	width:100%;
+	height: 100%;
+}
+
+.boxForm {
+	margin-bottom: 30px;
+	display: none;
+}
+
+#passo_1 {
+	display: block;
+	min-height: 290px;
+}
+
+#passo_2 {
+	min-height: 430px;	
+}
+
+#passo_3 {
+	min-height: 460px;	
+}
+
+.btAtual {
+	cursor: default;
+}

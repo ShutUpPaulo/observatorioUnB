@@ -1,0 +1,94 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  /*height: auto;*/
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container-topo {
+  min-height: 300px !important;
+  height: 300px !important;
+  /*margin-bottom: 10px;*/
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.homeTitulo {
+  position: fixed;
+  z-index: 999;
+  padding: 10px 0;
+  width: 100%;
+  /*background: url(../img/bgHomeTitulo.png);*/
+}
+
+.homeTitulo h5, .homeTitulo h2 {
+  margin: 0;
+}
+
+.navbar-fixed-perfil {
+  position: absolute;
+}
+
+.myDropContent {
+  width: 300px !important;
+}
+
+.myDropContent .badge {
+  position: absolute;
+  line-height: 22px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #26a69a;
+  border-radius: 5px;
+}

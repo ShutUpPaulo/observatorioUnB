@@ -1,0 +1,236 @@
+.clear {
+    clear: both;
+}
+
+/*header*/
+.headerBox {
+    width: 100%;
+    /*max-height: 70px;*/
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: hidden;
+    -webkit-transition: max-height 1s; /* Safari */
+    transition: max-height 1s;
+}
+
+.betaFaixa {
+    background: url(../img/beta.png) no-repeat;
+    width: 111px;
+    height: 70px;
+}
+
+.headerAberto {
+    max-height: 1000px;
+}
+
+.brand-logo {
+    font-size: 2em;
+}
+
+.headerTop {
+    height: 70px;
+    line-height: 60px;
+}
+
+.expandeHeader, .contraiHeader {
+    cursor: pointer;
+    line-height: 70px;
+}
+
+.menuHeader {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menuHeader li {
+    font-weight: bold;
+}
+
+.menuHeader li + li {
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.menuLink:hover, .menuArquivos a:hover, .underline {
+    text-decoration: underline;
+}
+
+.perfilTituloNav {
+    height: 60px;
+    display: block;
+}
+
+.abreModalPerfis {
+    margin-left: 20px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.abreModalPerfis + .abreModalPerfis {
+    margin-left: 5px;
+}
+
+/**/
+#modalPerfis {
+    width: 80%;
+    height: 80%;
+    max-height: 80%;
+    background-color: #ffffff;
+}
+
+#modalPerfis.modal-fixed-footer .modal-content {
+  height: calc(100% - 180px);/* -56 do modal-footer, -65 do myTabs, -59 de margin*/
+}
+
+.myTabs {
+    width: 62% !important;
+    margin: 29px auto 30px;/*-59*/
+}
+
+.myTab a {
+    padding: 0 10px;
+}
+
+.myTabs, .myTabs .myTab {
+    height: 65px;/*-65*/
+}
+.btPefilModal, .btSaibaMais {
+    margin: 40px 20px 20px 20px;
+}
+/**/
+
+.myDivider {
+    height: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.myDivider h2, .myDivider h1 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background-color: #ffffff;
+    font-size: 1.70rem;
+    margin: -0.90rem 0 0 0;
+    padding: 0 1%;
+}
+
+.card-image {
+    /*min-height: 180px;*/
+}
+
+.card .card-title {
+    font-size: 1.2em;
+}
+
+.destaqueLink {
+    text-shadow: 0px 0px 4px #000;
+    /*font-weight: bold;*/
+}
+
+/*on-med-and-down*/
+@media only screen and (max-width: 992px) {
+    
+}
+/**/
+
+.contentTopo {
+    margin-top: 110px;
+}
+
+.logoBox {
+    background-color: #f8f8ec;
+    padding-top: 5px;
+}
+
+.parallax-container_artigo {
+    height: 250px;
+}
+
+.page-footer {
+    margin-top: 0 !important;
+}
+
+#contentArtigo, .artigoTitulo, #apresentacaoTodeolho, .justify {
+    text-align: justify;
+}
+
+.artigoBody {
+    min-height: 500px;
+}
+
+
+
+.card .card-content {
+    /*min-height: 160px; */
+    padding: 10px;
+}
+
+.card .myCardContent {
+     min-height: 180px; 
+}
+
+.card .myImgHome {
+    display: block;
+    height: 230px;
+    background-size: cover;
+}
+
+.linkCardHome {
+    width: 100%;
+}
+
+.card .myCardTitle .valign {
+    width: 100%;
+}
+
+.fichasCategorias .card.horizontal .card-image {
+    max-width: 35%;
+}
+
+
+/**/
+.imgPerfil {
+    margin: 20px;
+}
+/**/
+
+
+
+.parallax-container_to_de_olho {
+    height: 200px;
+}
+
+/*msg usuario*/
+.returnMsg {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
+/**/
+
+.pointer {
+    cursor: pointer;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
